@@ -9,4 +9,4 @@ File "functions.cpp" provide C++ functions to support the analysis in the main R
 Files "drawing.R" provides plotting functions for the main R file.
 
 2 packages mt_1.0.tar.gz and plosM1_1.0.tar.gz are written in C++ (with Rcpp) to support fast computation in the analysis.
-
+The package mt_1.0.tar.gz runs > 100 times faster than diveMove package for extracting dives, thanks to Rcpp.
